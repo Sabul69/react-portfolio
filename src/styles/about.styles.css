@@ -1,0 +1,134 @@
+
+/* about-section */
+
+.about{
+    margin: 7rem 0;
+}
+.img-about img{
+    border-radius: 10px;
+    width: 80%;
+    float: right;
+    padding-right: 5rem;
+}
+
+.info-about div ul{
+    overflow: hidden;
+    width: max-content;
+    border-radius: 2rem;
+    border: solid 1px #757575;
+    margin: 2rem 1rem;
+}
+
+.info-about p{
+    font-size: 1.2rem;
+    padding: 1rem;    
+    color: #757575;
+    line-height: 2rem;
+}
+
+.info-about h2{
+    font-size: 2.9rem;
+    padding:  1rem;    
+}
+
+.info-about h3,h4,h5{
+    padding-left: 1rem;
+}
+
+.info-about h4{ 
+    color: var(--c1); 
+}
+
+.about-b{
+    border-radius: 2rem;
+    padding: 1rem 1.5rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #757575;
+    cursor: pointer;
+}
+.about-b:hover{
+background-color:var(--c1) ;
+color: white;
+}
+
+.active{
+    background-color:var(--c1) ;
+color: white;
+}
+
+.skill-h{
+    height: 8px;
+}
+.rad{
+    border-radius: 1rem;
+}
+.bar{
+    background-color: rgba(100, 100,100, .2);
+    margin-bottom: 1.5rem;
+    width: 90%;
+}
+.skill1{
+    width: 80%;
+    background-color:var(--c1);
+}
+.skill2{
+    width: 70%;
+    background-color:var(--c1);
+}
+.skill3{
+    width: 90%;
+    background-color:var(--c1);
+}
+.about-content h5{
+    margin-bottom: 1rem;
+    color: #757575; ;
+}
+@media (max-width:1200px){
+    .info-about div ul li{
+        font-size: 1rem;
+    }
+    .img-about{
+        width:100%;
+        }
+    
+}
+@media (max-width:970px){
+    .about-content{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        }
+        .img-about{
+            width: 60%;
+            padding-bottom: 3rem;
+            }
+
+}
+
+@media (max-width:700px){
+
+    .info-about div ul{
+        margin: 2rem 0;
+    }
+    .info-about{
+        width: 100%;
+    }
+}
+
+@media (max-width:580px){
+
+    .img-about{
+    width: 100%;
+    }
+    
+    .info-about div ul{
+        border: none;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .info-about div ul li{
+        font-size: .9rem;
+    }
+}

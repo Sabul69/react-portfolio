@@ -1,0 +1,82 @@
+/* main section */
+
+.main {
+    height: 90vh;
+    align-items: center;
+    position: relative;
+}
+.main:before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/main.jpg");
+    background-position: center;
+    background-size: cover ;
+    background-attachment: fixed;
+    z-index: -1;
+}
+.cv {
+    cursor: pointer;
+    border-radius: 10em;
+    background-color: var(--c1);
+    color: #ffffff;
+    padding: 1.4rem 2.3rem;
+    width: 17rem;
+    margin-top: 2rem;
+    border: none;
+    font-size: 1rem;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    border: solid 1px var(--c1);
+    transition: all ease .4s;
+}
+
+.cv:hover{
+    background-color: white;
+    color: var(--c1);
+}
+
+.main-title{
+padding: 3%;
+}
+
+.main-title h1{
+    font-family: 'Open Sans', sans-serif;  
+    font-size: 1.2rem;  
+    font-weight: 300px;
+    margin-bottom: 1rem;
+    color: var(--c1);
+}
+.main-title h2{
+    font-weight: bolder;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 1rem;
+    font-size: 3.2rem;
+    color: #6A4FFF;
+    width: 50%;
+}
+
+@media (max-width:1200px){
+    .main{
+        height: 100vh;
+    }
+    .main:before{
+        opacity: .5;
+    }
+    .main h2{
+        width: 50%;
+    }
+    .main-title{
+        margin-left: 5%;
+        margin-top: 15%;
+    }
+}
+
+@media (max-width:580px){
+    .main h2{
+        width: 95%;
+        font-size: 2.5rem;
+    }
+
+}

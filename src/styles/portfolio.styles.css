@@ -1,0 +1,107 @@
+/* portfolio */
+.portfolio{
+    padding-top: 6rem;
+}
+
+.portfolio-info{
+    margin-bottom: 3rem;
+}
+
+.portfolio-info p{  
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    font-size: 1.2rem;
+    color: #757575;
+    
+}
+
+.portfolio-info h4{ 
+    text-align: center;
+    color: var(--c1); 
+    margin: 1rem;
+}
+
+.portfolio-info  h2{ 
+    text-align: center;
+    margin: 2rem;
+    font-size: 3rem;
+}
+.projects{
+    width: 100%;
+}
+
+.project{
+    margin-top: 2rem;
+    width: 31.5%;
+    border-radius: 1rem;
+    padding: 2rem;
+    height:34rem;
+}
+
+.p1{ 
+    background-image: url("../img/port1.jpg");
+    background-size: cover;
+    background-position-x: center;
+}
+
+.p2{ 
+    background-image: url("../img/port2.jpg");
+    background-size: cover;
+    background-position-x: center;
+}
+.p3{ 
+    background-image: url("../img/port3.jpg");
+    background-size: cover;
+    background-position-x: center;
+}
+
+.project:hover{
+    position: relative;
+    bottom: .8rem; 
+}
+
+.project p{
+    color: var(--c1);;
+}
+
+.project h3{
+    color: white;
+    font-size: 2rem;
+}
+
+.project-button {
+    border-radius: 10em;
+    background-color: var(--c1);
+    color: #ffffff;
+    padding: 1.3rem;
+    width: 13rem;
+    margin-top: 2rem;
+    border: none;
+    font-weight: bold;
+    font-size: 1rem;
+    border:solid 1px var(--c1);
+    transition: all ease .3s;
+    margin: 4rem 0 7rem 0;
+}
+
+.project-button:hover{
+    background-color: #ffffff;
+    color: var(--c1);
+    border:solid 1px var(--c1);
+    box-sizing: border-box;
+    
+}
+
+@media (max-width:1200px){
+
+}
+
+@media (max-width:580px){
+    .projects{
+        flex-direction: column;
+    }
+    .project{
+        width: 100%;
+    }
+}

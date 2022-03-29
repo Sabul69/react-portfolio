@@ -1,0 +1,76 @@
+/* Services */
+.service-introduction{
+    margin-bottom: 5rem;
+}
+
+.service-introduction p{  
+    text-align: center;
+    margin: 1rem;
+    font-size: 1.2rem;
+    color: #757575;    
+}
+
+.service-introduction h4{ 
+    text-align: center;
+    color: var(--c1); 
+    margin: 1rem;
+}
+
+.service-introduction h2{ 
+    text-align: center;
+    margin: 1rem;
+    font-size: 3rem;
+}
+
+.services{
+    width: 100%;
+}
+
+.serv{
+margin-top: 2rem;
+width: 31.5%;
+background-color: #f6f6f6;
+border-radius: 1rem;
+padding: 2rem;
+height:18rem;
+}
+
+.serv:hover{
+    position: relative;
+    bottom: .8rem; 
+}
+
+.serv img{
+width: 14%;
+margin-bottom: 1rem;
+}
+
+.serv p{
+   font-size: 1.1rem;
+   color: #757575;
+   letter-spacing: 1px;
+   line-height: 1.8rem;  
+}
+
+ .serv h3{
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+@media (max-width:1200px){
+    .services{
+        flex-wrap: wrap;
+    }
+    .serv{
+        width: 48%;
+    }
+}
+
+@media (max-width:580px){
+    .services{
+        flex-direction: column;
+    }
+    .serv{
+        width: 100%;
+    }
+}
