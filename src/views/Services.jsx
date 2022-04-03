@@ -11,7 +11,7 @@ const Services = () => {
                 <div className="service-introduction">
                     <h4>What can i do for you</h4>
                     <h2>My Service</h2>
-                    <p>This are some of the services i can offer. </p>
+                    <p>These are some of the services i can offer. </p>
                 </div>
                 <div className="services flex just-between wrap">
                     <div className="serv">

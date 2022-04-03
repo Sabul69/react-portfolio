@@ -24,7 +24,7 @@ const Portfolio = () => {
                     <h3>Shopping Cart</h3>
                 </div></a>
             </div>
-            <button className="project-button">View Projects</button>
+            <button className="project-button">More Projects Incoming ...</button>
         </div>
         </section>
     )

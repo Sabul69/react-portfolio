@@ -11,7 +11,7 @@ const Blog = () => {
                 <div className="item">
                     <h4>Latest news </h4>
                     <h2>Latest News</h2>
-                    <p>Seccion en desarrollo.</p>
+                    <p>Section in progress...</p>
                 </div>
                 <div className="news flex just-between">
                     <div className="new flex column just-end">
